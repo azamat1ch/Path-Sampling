@@ -88,4 +88,4 @@ if __name__ == '__main__':
                     'tailed_triangle': C_hat[2], '4cycle': C_hat[3], 'chordal_4cycle': C_hat[4], '4clique': C_hat[5]}
         final_df = final_df.append(record, ignore_index=True)
         
-        final_df.to_csv('as-skitter.csv', index=False)
+        final_df.to_csv('results.csv', index=False)

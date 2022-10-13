@@ -48,9 +48,6 @@ class Graph:
     def getDegree(self, node):
         '''
         Get the degree of a node.
-        :param self: This is a reference to the object that is calling the function
-        :param node: the node to be added
-        :return: The degree of the node.
         '''
         return self.Degrees[node]
 
@@ -58,10 +55,6 @@ class Graph:
     def isEdge(self, node1, node2):
         '''
         Given a node, return True if the node has an edge to another node. 
-        :param self: This is a reference to the object that is calling the method
-        :param node1: the first node
-        :param node2: the node to check if it is an edge of node1
-        :return: The function isEdge returns True if the edge exists and False if it does not.
         '''
         if node2 in self.adj[node1]:    
             return True                     
@@ -71,9 +64,7 @@ class Graph:
     def count_w_lambda(self):   
         '''
         For each edge (u,v) in the graph, calculate the number of triangles that include both u and v.
-        
-        :param self: the object itself
-        :return: None
+
         '''
         for u, v in self.Edges:
             degree1 = self.getDegree(u)
