@@ -25,7 +25,7 @@ There are 2 processes to estimate all occurrences of each subgraph.
 
 ### Results
 
-> Algorithm takes only a few minutes or even seconds to read the large graphs with millions of edges. For instance, it takes around 3 minutes to read the ‘cit-Pattents.txt’ graph with around 3M nodes and 16M edges. - Tested on 8GB Laptop
+> "Algorithm takes only a few minutes or even seconds to read the large graphs with millions of edges. For instance, it takes around 3 minutes to read the ‘cit-Pattents.txt’ graph with around 3M nodes and 16M edges." - Tested on 8GB Laptop
 
 I tested the algorithm on the 7 datasets mentioned in paper. A graph below shows the error of each type of 4-vertex graph in seven different datasets. 
 ![results](/ph/results.png)
